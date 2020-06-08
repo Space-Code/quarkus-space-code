@@ -66,9 +66,4 @@ public class ServiceController {
 		return serviceRepository.delete(name);
 	}
 
-	@GET
-	@Path("/hello")
-	public String hello() {
-		return "hello";
-	}
 }
